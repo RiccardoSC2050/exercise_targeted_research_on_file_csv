@@ -1,0 +1,65 @@
+from eleco_ricerca import elenco_ricerca_mirata
+from funzioni_su_fileCSV.funzioniRicerca import *
+from funzioni_su_fileCSV.uscita import exit
+from richiesta_su_nuoviCSV import *
+
+
+def ricerca_mirata(df) -> None:
+    elenco_ricerca_mirata()
+    print("\n")
+    while True:
+        try:
+            ricerca_mirata: str = input(
+                "(exit) per uscire\n"
+                "(back) per tornare indietro\n"
+                "oppure inserire numero corrispondente al tipo di ricerca: "
+            )
+        except ValueError:
+            print("inserimento sconosciuto")
+
+        if ricerca_mirata == "exit":
+            exit()
+
+        elif ricerca_mirata == "back":
+            break
+
+        elif ricerca_mirata.isalpha() and ricerca_mirata != "exit":
+            print(
+                "l'inserimento deve corrispondere con i valori designati: indice numerico"
+            )
+            continue
+
+        elif not (int(ricerca_mirata) > 0 and int(ricerca_mirata) < 9):
+            print(
+                "l'inserimento deve corrispondere con i valori designati: indice numerico"
+            )
+            continue
+
+        else:
+            match ricerca_mirata:
+                case "1":
+                    df_nano = ricerca_per_id(df, None)
+                    vuoi_creare(df_nano)
+                case "2":
+                    df_nano = ricerca_per_nominativo(df, None)
+                    vuoi_creare(df_nano)
+                case "3":
+                    df_nano = ricerca_per_professione(df, None)
+                    vuoi_creare(df_nano)
+                case "4":
+                    df_nano = ricerca_per_anno_inizio(df, None)
+                    vuoi_creare(df_nano)
+                case "5":
+                    df_nano = ricerca_per_intervallo(df, None)
+                    vuoi_creare(df_nano)
+                case "6":
+                    df_nano = ricerca_per_numero_richiami(df, None)
+                    vuoi_creare(df_nano)
+                case "7":
+                    df_nano = ricerca_per_numero_richiami_istruzione(
+                        df, None, "maggiore"
+                    )
+                    vuoi_creare(df_nano)
+                case "8":
+                    df_nano = ricerca_per_numero_richiami_istruzione(df, None, "minore")
+                    vuoi_creare(df_nano)

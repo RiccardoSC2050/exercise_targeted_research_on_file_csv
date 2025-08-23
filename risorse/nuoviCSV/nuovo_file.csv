@@ -1,0 +1,101 @@
+ID,Nome,Cognome,Telefono,Professione,Richiami,AnnoInizio
+01500,Anna,Verdi,+396522696310,Chimico,2,2001
+01501,Francesco,Conti,+391245922744,Chimico,0,2021
+01502,Chiara,Esposito,+398920259793,Chimico,0,2024
+01503,Anna,Fontana,+397260019411,Informatico,2,1997
+01504,Giorgio,Lombardi,+394287446833,Chimico,2,2006
+01505,Anna,Lombardi,+396090366243,Capo settore industriale,1,1996
+01506,Francesco,Greco,+394194429052,Informatico,0,2015
+01507,Marco,Verdi,+395002076339,Informatico,3,2024
+01508,Francesco,Conti,+390278824086,Ingegnere,0,2022
+01509,Francesco,Verdi,+396739876994,Informatico,0,2006
+01510,Giorgio,Verdi,+394881768554,Informatico,0,2013
+01511,Luca,Neri,+393093926971,Ingegnere,5,2008
+01512,Marco,Rossi,+393005215999,Informatico,0,2006
+01513,Marco,Fontana,+393067060591,Chimico,2,1998
+01514,Anna,Greco,+392858353268,Ingegnere,3,1996
+01515,Sara,Esposito,+395268507335,Capo settore industriale,1,2003
+01516,Elena,Conti,+397597861503,Informatico,0,2000
+01517,Marco,Lombardi,+391571260790,Ingegnere,5,2013
+01518,Paolo,Fontana,+394051145963,Informatico,1,1998
+01519,Luca,Neri,+391933415041,Capo settore industriale,3,2005
+01520,Francesco,Esposito,+398976988342,Informatico,1,2023
+01521,Luca,Greco,+399776277788,Informatico,1,2020
+01522,Giulia,Esposito,+391217998517,Capo settore industriale,0,1998
+01523,Giorgio,Esposito,+396808906262,Capo settore industriale,1,2013
+01524,Paolo,Gallo,+398817098023,Ingegnere,3,1995
+01525,Marco,Bianchi,+393839148206,Informatico,5,2005
+01526,Francesco,Neri,+395981671685,Chimico,2,2003
+01527,Sara,Bianchi,+392204294359,Chimico,1,2002
+01528,Elena,Bianchi,+393650968960,Capo settore industriale,0,2021
+01529,Chiara,Rossi,+399586054899,Capo settore industriale,4,2015
+01530,Giorgio,Conti,+396282600705,Ingegnere,2,1998
+01531,Paolo,Greco,+396993303767,Capo settore industriale,3,1999
+01532,Luca,Gallo,+391103649898,Chimico,5,1997
+01533,Elena,Bianchi,+392681040739,Capo settore industriale,2,2006
+01534,Francesco,Gallo,+397838996430,Informatico,0,2004
+01535,Sara,Conti,+395022224651,Ingegnere,5,2018
+01536,Luca,Fontana,+398574147541,Capo settore industriale,3,2020
+01537,Francesco,Rossi,+398256566369,Capo settore industriale,0,2024
+01538,Elena,Neri,+399440508158,Ingegnere,1,2009
+01539,Giulia,Greco,+398060325837,Capo settore industriale,3,2009
+01540,Francesco,Conti,+393818185310,Capo settore industriale,2,2023
+01541,Giorgio,Conti,+398471819994,Capo settore industriale,2,2015
+01542,Sara,Lombardi,+399291359838,Informatico,0,2001
+01543,Giorgio,Greco,+397721723660,Informatico,5,2005
+01544,Giorgio,Neri,+390685172798,Informatico,3,2014
+01545,Chiara,Verdi,+397402984759,Chimico,1,2016
+01546,Giorgio,Gallo,+392755743248,Informatico,1,2020
+01547,Sara,Verdi,+392281254880,Informatico,4,2015
+01548,Luca,Rossi,+392812991480,Ingegnere,0,2024
+01549,Francesco,Verdi,+392741966402,Ingegnere,3,2014
+01550,Paolo,Rossi,+392475815942,Chimico,2,2010
+01551,Luca,Gallo,+390774874110,Capo settore industriale,3,1997
+01552,Anna,Esposito,+398163777764,Ingegnere,0,1999
+01553,Giorgio,Lombardi,+392203497674,Ingegnere,2,2024
+01554,Marco,Fontana,+390665472472,Informatico,1,2018
+01555,Anna,Fontana,+399805245451,Ingegnere,3,2022
+01556,Sara,Conti,+393580668414,Chimico,1,2013
+01557,Giulia,Bianchi,+392177871202,Informatico,4,2016
+01558,Giulia,Greco,+390270374963,Chimico,3,2014
+01559,Giorgio,Lombardi,+399425212885,Informatico,3,1997
+01560,Marco,Neri,+392531441191,Capo settore industriale,4,2011
+01561,Giorgio,Bianchi,+399994509243,Chimico,2,2015
+01562,Marco,Conti,+396447702039,Ingegnere,2,2022
+01563,Sara,Verdi,+393794871110,Chimico,5,2020
+01564,Marco,Verdi,+395227424363,Ingegnere,2,2000
+01565,Chiara,Rossi,+394205122825,Capo settore industriale,2,1995
+01566,Francesco,Gallo,+395459541776,Capo settore industriale,4,1996
+01567,Anna,Esposito,+396802911267,Chimico,1,1995
+01568,Francesco,Greco,+392766718368,Ingegnere,5,2004
+01569,Anna,Greco,+398180073451,Chimico,0,2018
+01570,Sara,Bianchi,+393006014215,Informatico,1,2003
+01571,Francesco,Rossi,+399488852340,Ingegnere,1,2021
+01572,Anna,Gallo,+395811832836,Capo settore industriale,4,2013
+01573,Sara,Neri,+396377036501,Chimico,0,2022
+01574,Anna,Greco,+394219000304,Capo settore industriale,3,2018
+01575,Chiara,Lombardi,+394921054291,Informatico,4,1998
+01576,Chiara,Lombardi,+391753658152,Capo settore industriale,5,1996
+01577,Sara,Conti,+391072121631,Ingegnere,5,1998
+01578,Francesco,Esposito,+396601520958,Capo settore industriale,0,2014
+01579,Anna,Fontana,+397463911515,Capo settore industriale,1,2008
+01580,Sara,Verdi,+390216568388,Capo settore industriale,1,2013
+01581,Sara,Conti,+391986112903,Chimico,0,2001
+01582,Chiara,Lombardi,+393259169282,Capo settore industriale,1,2021
+01583,Giorgio,Greco,+399976297559,Capo settore industriale,5,2024
+01584,Paolo,Esposito,+394120412471,Capo settore industriale,0,1996
+01585,Paolo,Neri,+390976522454,Chimico,5,2001
+01586,Paolo,Conti,+393887614613,Capo settore industriale,0,2006
+01587,Giorgio,Fontana,+391605341124,Ingegnere,2,2015
+01588,Luca,Bianchi,+393917341715,Capo settore industriale,5,2024
+01589,Marco,Neri,+397368284987,Capo settore industriale,3,2016
+01590,Chiara,Gallo,+392095245413,Ingegnere,2,2024
+01591,Chiara,Neri,+391439915863,Informatico,0,2022
+01592,Sara,Neri,+399481454656,Capo settore industriale,3,2000
+01593,Anna,Gallo,+398676132955,Ingegnere,4,2020
+01594,Anna,Rossi,+395716684599,Chimico,1,2016
+01595,Giorgio,Greco,+390501419751,Ingegnere,4,2012
+01596,Sara,Fontana,+393182178046,Ingegnere,2,2008
+01597,Paolo,Lombardi,+399754782478,Informatico,4,2022
+01598,Elena,Conti,+392630047256,Chimico,1,2016
+01599,Chiara,Fontana,+391608375486,Informatico,2,2003

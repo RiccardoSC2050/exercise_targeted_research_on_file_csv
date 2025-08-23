@@ -1,0 +1,443 @@
+ID,Nome,Cognome,Telefono,Professione,Richiami,AnnoInizio
+00002,Elena,Bianchi,+391362955643,Chimico,2,1996
+00003,Giorgio,Neri,+398788588131,Chimico,5,2000
+00005,Marco,Gallo,+390745804923,Ingegnere,1,1996
+00008,Paolo,Neri,+391377225629,Informatico,0,1999
+00011,Marco,Conti,+390352091306,Capo settore industriale,3,1997
+00014,Marco,Rossi,+397343041990,Chimico,2,1997
+00015,Anna,Greco,+399405513464,Informatico,2,2001
+00016,Francesco,Rossi,+395442734269,Ingegnere,4,2000
+00017,Francesco,Esposito,+397950579209,Capo settore industriale,3,1997
+00019,Marco,Lombardi,+395785524529,Chimico,5,1998
+00020,Sara,Conti,+391925643293,Informatico,0,2001
+00025,Sara,Greco,+397615113379,Ingegnere,1,1997
+00027,Sara,Greco,+393944988806,Chimico,3,1996
+00032,Sara,Bianchi,+397301956358,Ingegnere,2,1996
+00034,Giorgio,Rossi,+391812893035,Capo settore industriale,3,1996
+00042,Sara,Esposito,+396368368295,Informatico,5,1996
+00046,Chiara,Esposito,+399513893620,Chimico,5,1997
+00052,Anna,Esposito,+395493744196,Capo settore industriale,3,2000
+00056,Sara,Lombardi,+397570861361,Ingegnere,1,1997
+00062,Marco,Lombardi,+393374351751,Informatico,2,2001
+00064,Marco,Conti,+391936782038,Informatico,1,1995
+00067,Chiara,Fontana,+398475381146,Ingegnere,1,1999
+00072,Paolo,Gallo,+397640935598,Ingegnere,1,1997
+00079,Chiara,Verdi,+393256834828,Capo settore industriale,0,2001
+00091,Paolo,Bianchi,+399051352901,Capo settore industriale,4,1998
+00092,Marco,Bianchi,+392686836639,Informatico,0,1998
+00094,Francesco,Rossi,+394875172127,Chimico,5,1998
+00097,Anna,Conti,+392790337661,Informatico,0,1998
+00098,Chiara,Neri,+396427364369,Informatico,3,1997
+00099,Anna,Conti,+398048558586,Ingegnere,5,1999
+00103,Paolo,Greco,+396091818056,Chimico,5,2000
+00105,Giorgio,Verdi,+399244745284,Chimico,3,2000
+00106,Francesco,Fontana,+398029212502,Ingegnere,1,1998
+00109,Anna,Gallo,+397303648431,Ingegnere,2,1998
+00110,Elena,Lombardi,+393639924669,Chimico,2,1999
+00121,Giorgio,Fontana,+398136821124,Informatico,5,1997
+00123,Chiara,Gallo,+395538333811,Informatico,1,2001
+00128,Sara,Rossi,+397522873952,Capo settore industriale,4,1999
+00136,Giorgio,Lombardi,+393566159841,Informatico,1,2001
+00137,Marco,Fontana,+397529983068,Informatico,2,1998
+00139,Marco,Fontana,+395354605045,Informatico,5,1995
+00147,Anna,Greco,+396566887969,Informatico,4,1999
+00151,Anna,Conti,+391725993851,Ingegnere,0,2001
+00155,Giorgio,Esposito,+398465562148,Ingegnere,4,2001
+00159,Chiara,Gallo,+391188659163,Informatico,0,1998
+00160,Marco,Conti,+395100169288,Chimico,5,1999
+00167,Marco,Neri,+390533874336,Informatico,3,2000
+00178,Paolo,Verdi,+392297490439,Ingegnere,2,1995
+00198,Sara,Neri,+390743124522,Informatico,5,1999
+00199,Anna,Lombardi,+392038501360,Informatico,4,1997
+00202,Giorgio,Conti,+398215493552,Chimico,1,2001
+00214,Anna,Esposito,+395068461625,Informatico,1,1999
+00215,Marco,Esposito,+397171149757,Chimico,5,2000
+00220,Sara,Conti,+397214341964,Capo settore industriale,0,1996
+00221,Luca,Lombardi,+392155905340,Informatico,3,1997
+00227,Luca,Conti,+391372351797,Chimico,5,2000
+00231,Chiara,Verdi,+391055826887,Ingegnere,2,1998
+00233,Paolo,Lombardi,+391389312869,Chimico,3,1997
+00235,Chiara,Verdi,+398298548058,Ingegnere,5,1998
+00244,Paolo,Conti,+391683927601,Capo settore industriale,4,1999
+00249,Paolo,Greco,+399035355233,Ingegnere,4,1998
+00252,Sara,Fontana,+395157325472,Informatico,4,2001
+00260,Elena,Bianchi,+390823797670,Chimico,0,1996
+00267,Marco,Conti,+390631643362,Capo settore industriale,0,1999
+00272,Giorgio,Fontana,+393487378924,Capo settore industriale,4,1996
+00274,Luca,Verdi,+391501568824,Capo settore industriale,3,1996
+00287,Sara,Verdi,+392895792914,Informatico,0,1998
+00290,Chiara,Lombardi,+394003575887,Capo settore industriale,1,2001
+00299,Sara,Esposito,+391264343791,Chimico,5,1998
+00306,Luca,Lombardi,+396636854498,Capo settore industriale,1,2001
+00322,Giulia,Neri,+391735862832,Chimico,1,2001
+00326,Sara,Verdi,+390871036709,Chimico,2,2001
+00327,Elena,Greco,+390937561245,Informatico,3,2001
+00337,Luca,Neri,+395555783911,Informatico,0,1995
+00344,Francesco,Lombardi,+394216257084,Chimico,1,1997
+00345,Luca,Fontana,+393426720527,Capo settore industriale,2,1997
+00347,Chiara,Rossi,+396026321533,Capo settore industriale,4,1999
+00348,Francesco,Neri,+390204670449,Ingegnere,0,1997
+00357,Paolo,Rossi,+391246951825,Informatico,2,1999
+00358,Luca,Bianchi,+393366206274,Capo settore industriale,3,2000
+00361,Anna,Greco,+390776442273,Capo settore industriale,2,2000
+00366,Elena,Greco,+397505132224,Ingegnere,0,1998
+00373,Anna,Rossi,+397493796431,Informatico,0,1998
+00374,Elena,Bianchi,+392258924649,Informatico,2,2000
+00376,Francesco,Greco,+394266980839,Chimico,1,1995
+00377,Anna,Neri,+397503166464,Chimico,0,1995
+00382,Elena,Esposito,+391836443987,Capo settore industriale,2,1999
+00385,Francesco,Lombardi,+396403272194,Capo settore industriale,0,1996
+00389,Francesco,Verdi,+395132660259,Capo settore industriale,2,1995
+00394,Giorgio,Bianchi,+394299258424,Ingegnere,2,1999
+00397,Francesco,Esposito,+394991781194,Ingegnere,3,1998
+00407,Francesco,Bianchi,+396106030192,Capo settore industriale,5,2000
+00408,Giorgio,Rossi,+391030545165,Informatico,5,2000
+00412,Paolo,Lombardi,+397990571990,Ingegnere,4,1995
+00423,Giorgio,Neri,+399769792946,Informatico,3,1996
+00424,Sara,Gallo,+390125372412,Chimico,2,1999
+00430,Giorgio,Fontana,+394800503391,Ingegnere,3,2001
+00432,Paolo,Esposito,+398145758927,Capo settore industriale,5,2000
+00438,Giulia,Verdi,+390546531256,Informatico,4,1997
+00441,Chiara,Fontana,+391653135637,Capo settore industriale,0,2000
+00442,Elena,Lombardi,+398849711897,Capo settore industriale,1,1997
+00444,Giulia,Esposito,+394218787149,Capo settore industriale,4,1995
+00447,Luca,Gallo,+396964707837,Chimico,5,1996
+00448,Giulia,Bianchi,+397400964899,Chimico,5,1996
+00449,Elena,Neri,+390460771273,Ingegnere,4,1999
+00452,Marco,Lombardi,+396813320004,Informatico,0,2001
+00469,Luca,Bianchi,+393446719642,Capo settore industriale,3,1996
+00473,Sara,Fontana,+394627995171,Informatico,0,1998
+00476,Francesco,Verdi,+397308851146,Chimico,0,1997
+00481,Giorgio,Lombardi,+397848642826,Informatico,2,2000
+00484,Francesco,Gallo,+392660530939,Informatico,3,2000
+00489,Anna,Esposito,+391898163154,Chimico,0,1997
+00490,Francesco,Conti,+399782715845,Chimico,0,1997
+00504,Chiara,Lombardi,+398859081141,Capo settore industriale,0,1997
+00506,Sara,Conti,+395843595535,Capo settore industriale,5,1996
+00511,Chiara,Gallo,+391007907694,Chimico,2,2001
+00522,Giorgio,Bianchi,+399364965403,Chimico,4,1995
+00524,Chiara,Rossi,+395160951881,Capo settore industriale,0,1999
+00525,Anna,Greco,+398343160711,Informatico,4,1996
+00532,Giulia,Gallo,+397523563659,Informatico,1,1998
+00533,Anna,Rossi,+399458589588,Chimico,5,1998
+00537,Sara,Conti,+394259257289,Capo settore industriale,0,1997
+00549,Elena,Rossi,+392990258526,Chimico,2,1997
+00550,Chiara,Verdi,+393980605786,Ingegnere,3,1998
+00555,Francesco,Gallo,+390162045028,Capo settore industriale,3,1998
+00562,Elena,Verdi,+398782107991,Ingegnere,3,1997
+00567,Paolo,Fontana,+396283248835,Ingegnere,0,1996
+00568,Giorgio,Neri,+391590555552,Chimico,5,1996
+00570,Giorgio,Greco,+397407426103,Capo settore industriale,3,1999
+00571,Elena,Conti,+391396517912,Ingegnere,2,2000
+00575,Chiara,Verdi,+397805872711,Informatico,5,1997
+00576,Giulia,Verdi,+395192942264,Capo settore industriale,1,2001
+00578,Marco,Neri,+392408543994,Ingegnere,4,1996
+00611,Giulia,Bianchi,+393184837611,Chimico,3,1999
+00614,Giorgio,Greco,+395586141049,Ingegnere,4,2001
+00615,Luca,Greco,+392688958922,Informatico,1,2000
+00620,Marco,Fontana,+396714699733,Capo settore industriale,3,2001
+00624,Sara,Greco,+398829700846,Informatico,2,1998
+00626,Luca,Esposito,+392799796752,Informatico,4,1998
+00630,Giulia,Verdi,+390424997621,Chimico,0,1995
+00633,Luca,Gallo,+397115292304,Ingegnere,5,1997
+00645,Chiara,Rossi,+393486685035,Capo settore industriale,1,1997
+00649,Anna,Rossi,+391658211490,Informatico,5,2000
+00664,Paolo,Esposito,+396618058649,Informatico,5,1998
+00670,Giulia,Rossi,+394265299011,Informatico,3,1996
+00672,Elena,Fontana,+394482327608,Informatico,5,1999
+00674,Chiara,Conti,+391477547180,Ingegnere,3,1999
+00676,Marco,Greco,+395712747855,Ingegnere,4,1997
+00678,Paolo,Gallo,+395821440470,Chimico,5,1995
+00685,Elena,Greco,+397856080649,Chimico,3,2000
+00691,Giorgio,Conti,+399553228284,Ingegnere,0,1996
+00695,Giulia,Verdi,+391450081244,Informatico,1,1995
+00697,Luca,Neri,+391873471233,Ingegnere,3,1998
+00698,Giulia,Conti,+399868902835,Capo settore industriale,5,2000
+00701,Francesco,Rossi,+396392048591,Capo settore industriale,3,2000
+00703,Luca,Esposito,+390716239492,Chimico,4,1996
+00704,Giulia,Neri,+394214136449,Ingegnere,0,1999
+00706,Paolo,Neri,+395756312717,Capo settore industriale,5,2000
+00707,Luca,Conti,+394143754569,Informatico,3,1996
+00709,Luca,Verdi,+391639325044,Ingegnere,2,2001
+00711,Chiara,Bianchi,+391637846789,Informatico,5,1997
+00714,Sara,Lombardi,+396260586369,Ingegnere,5,1997
+00721,Luca,Conti,+392493801579,Capo settore industriale,0,1999
+00724,Anna,Rossi,+399011507301,Ingegnere,1,1996
+00728,Anna,Fontana,+397536057842,Chimico,1,1995
+00730,Giulia,Conti,+395189299490,Ingegnere,1,1998
+00732,Luca,Lombardi,+390640828594,Chimico,1,1995
+00741,Giorgio,Conti,+391651350587,Chimico,5,1998
+00752,Luca,Greco,+397868360674,Chimico,4,2000
+00753,Anna,Verdi,+394587255895,Ingegnere,3,1999
+00755,Giorgio,Esposito,+392644335588,Chimico,1,1997
+00756,Giorgio,Rossi,+391808742394,Ingegnere,0,1999
+00758,Giorgio,Neri,+391627069484,Ingegnere,0,1996
+00759,Luca,Lombardi,+394315886135,Chimico,0,1998
+00765,Francesco,Verdi,+398900484561,Capo settore industriale,5,2000
+00774,Marco,Rossi,+398279032938,Ingegnere,4,1997
+00781,Anna,Greco,+396394573479,Chimico,0,2000
+00791,Giulia,Gallo,+398910654240,Capo settore industriale,0,2001
+00792,Marco,Lombardi,+398972056055,Ingegnere,1,1995
+00800,Chiara,Gallo,+394045186976,Capo settore industriale,3,1997
+00801,Sara,Lombardi,+397141280404,Informatico,2,1995
+00802,Elena,Bianchi,+397892842531,Chimico,1,1995
+00808,Anna,Esposito,+396392275710,Informatico,0,1999
+00827,Giorgio,Lombardi,+393216500974,Ingegnere,5,1998
+00828,Anna,Greco,+396473892859,Capo settore industriale,2,1998
+00832,Elena,Verdi,+390918297239,Chimico,5,2000
+00833,Luca,Neri,+390009246698,Ingegnere,3,1995
+00834,Giulia,Neri,+397697433233,Chimico,1,1995
+00838,Elena,Rossi,+396402851561,Capo settore industriale,1,2000
+00840,Elena,Greco,+390735357427,Capo settore industriale,1,2000
+00844,Sara,Fontana,+393969081546,Chimico,5,1997
+00845,Giulia,Rossi,+398599171316,Capo settore industriale,5,2000
+00849,Chiara,Esposito,+391024520926,Chimico,0,1999
+00850,Chiara,Gallo,+396945890085,Ingegnere,5,2001
+00871,Paolo,Verdi,+392370903430,Informatico,2,1996
+00877,Chiara,Rossi,+398190923200,Ingegnere,2,1999
+00878,Anna,Bianchi,+391884464624,Ingegnere,3,2001
+00884,Luca,Gallo,+393055564915,Informatico,5,1995
+00886,Francesco,Rossi,+394459340555,Capo settore industriale,3,2001
+00890,Elena,Conti,+392308507733,Informatico,0,1995
+00892,Giulia,Neri,+395069188199,Chimico,5,2000
+00907,Marco,Neri,+393605120631,Capo settore industriale,4,1999
+00915,Anna,Gallo,+398084509864,Capo settore industriale,5,1995
+00924,Giulia,Lombardi,+392193703697,Chimico,4,1996
+00929,Francesco,Rossi,+392068051895,Ingegnere,4,1995
+00930,Giulia,Bianchi,+397976415439,Informatico,5,1996
+00935,Anna,Esposito,+397413416741,Chimico,3,1998
+00936,Sara,Neri,+392180890300,Ingegnere,0,2000
+00938,Francesco,Verdi,+398004301955,Informatico,2,1996
+00942,Elena,Neri,+395669070109,Capo settore industriale,5,1997
+00947,Chiara,Neri,+394356010394,Chimico,5,1998
+00953,Anna,Neri,+398366133130,Chimico,3,1997
+00956,Paolo,Neri,+396207127180,Capo settore industriale,0,1996
+00962,Giulia,Lombardi,+394853525530,Informatico,4,2001
+00973,Giulia,Gallo,+396799805435,Capo settore industriale,1,1996
+00974,Paolo,Fontana,+391687405299,Chimico,1,2000
+00983,Anna,Greco,+396153405933,Informatico,2,1999
+00985,Luca,Fontana,+395091980132,Capo settore industriale,3,1995
+00986,Paolo,Esposito,+393972089181,Capo settore industriale,4,1996
+00988,Giulia,Rossi,+392702338725,Informatico,5,1996
+00993,Sara,Gallo,+392427724807,Ingegnere,1,2000
+01000,Giulia,Conti,+395254452309,Chimico,0,2000
+01002,Paolo,Bianchi,+399734097258,Chimico,5,1997
+01003,Elena,Rossi,+395750616160,Ingegnere,3,1997
+01031,Chiara,Esposito,+398263315438,Capo settore industriale,2,1998
+01033,Giulia,Conti,+395877859496,Capo settore industriale,4,2000
+01034,Anna,Bianchi,+397890223314,Informatico,3,2000
+01044,Chiara,Conti,+392994201887,Capo settore industriale,4,1998
+01047,Paolo,Gallo,+393515900560,Ingegnere,0,1999
+01049,Elena,Fontana,+395198968944,Ingegnere,5,2001
+01051,Paolo,Neri,+390687237802,Capo settore industriale,2,1999
+01053,Chiara,Esposito,+396808887136,Chimico,2,1997
+01055,Francesco,Rossi,+392746081844,Informatico,5,1995
+01059,Elena,Conti,+398728152792,Capo settore industriale,4,1999
+01065,Paolo,Rossi,+391561132456,Chimico,4,1997
+01068,Chiara,Lombardi,+397579589709,Ingegnere,3,2001
+01077,Chiara,Verdi,+399075624575,Ingegnere,5,1996
+01096,Marco,Gallo,+396602389059,Chimico,2,2000
+01099,Giulia,Bianchi,+398555411301,Ingegnere,0,1995
+01102,Paolo,Esposito,+397689481063,Capo settore industriale,3,1995
+01107,Anna,Gallo,+397064019651,Ingegnere,5,1998
+01110,Giorgio,Gallo,+395208086028,Ingegnere,4,1998
+01113,Luca,Lombardi,+399535177967,Informatico,4,1995
+01114,Chiara,Gallo,+399984563951,Ingegnere,4,1999
+01118,Francesco,Lombardi,+397686650110,Informatico,3,2000
+01121,Giorgio,Bianchi,+399954497812,Chimico,3,1999
+01129,Chiara,Lombardi,+399545976630,Capo settore industriale,0,2000
+01131,Paolo,Bianchi,+399093124839,Ingegnere,2,2000
+01134,Chiara,Bianchi,+399257166919,Informatico,5,1997
+01136,Luca,Conti,+391488660246,Informatico,5,1998
+01137,Francesco,Greco,+396243125690,Chimico,5,2001
+01143,Paolo,Lombardi,+391511695711,Chimico,1,1996
+01149,Paolo,Conti,+397068704478,Informatico,3,1995
+01150,Chiara,Gallo,+391800389311,Capo settore industriale,0,1999
+01164,Giorgio,Rossi,+392610669536,Capo settore industriale,4,1996
+01172,Giorgio,Fontana,+393327926761,Informatico,3,1999
+01181,Giulia,Lombardi,+397321514884,Chimico,3,2000
+01186,Elena,Verdi,+397235012824,Ingegnere,4,2000
+01187,Giulia,Lombardi,+397503059628,Chimico,0,2001
+01189,Elena,Bianchi,+396692516011,Informatico,4,1995
+01190,Luca,Verdi,+390581244308,Capo settore industriale,0,1995
+01191,Francesco,Greco,+399262316925,Capo settore industriale,3,1996
+01192,Paolo,Bianchi,+397502487677,Chimico,4,1997
+01195,Chiara,Lombardi,+395219125761,Ingegnere,5,1998
+01202,Anna,Bianchi,+398060607944,Ingegnere,1,1997
+01220,Anna,Rossi,+396104673498,Informatico,5,1996
+01227,Giulia,Lombardi,+390933012799,Informatico,0,1996
+01232,Sara,Fontana,+393112086179,Informatico,0,2001
+01240,Marco,Neri,+394547188524,Informatico,3,1996
+01248,Sara,Gallo,+390837249707,Capo settore industriale,1,2000
+01249,Giorgio,Verdi,+396979379128,Informatico,5,1996
+01254,Sara,Conti,+397390800935,Capo settore industriale,3,1995
+01262,Chiara,Lombardi,+396361557031,Chimico,1,2000
+01266,Anna,Lombardi,+391255850362,Informatico,0,2001
+01267,Luca,Lombardi,+398236905243,Informatico,1,1999
+01271,Anna,Rossi,+395398060117,Capo settore industriale,0,1999
+01272,Sara,Esposito,+394354435004,Informatico,0,1997
+01273,Giulia,Neri,+397227302965,Informatico,0,2000
+01281,Anna,Esposito,+398013581725,Informatico,3,1997
+01284,Sara,Fontana,+392452015314,Chimico,4,2001
+01286,Giulia,Neri,+390274644574,Chimico,0,1999
+01288,Sara,Conti,+395528512709,Capo settore industriale,2,2001
+01289,Anna,Greco,+395841962461,Chimico,0,1995
+01292,Giorgio,Fontana,+393279721382,Chimico,3,2000
+01301,Francesco,Neri,+395506148429,Ingegnere,3,1995
+01303,Francesco,Bianchi,+392154394924,Ingegnere,2,1998
+01312,Anna,Gallo,+397012893755,Chimico,2,2001
+01316,Giulia,Lombardi,+393020354049,Chimico,3,2001
+01325,Elena,Gallo,+393903874509,Informatico,5,1996
+01333,Sara,Lombardi,+397738628859,Ingegnere,3,1999
+01339,Elena,Gallo,+396019585282,Ingegnere,4,1996
+01340,Giulia,Esposito,+399535378726,Capo settore industriale,5,1998
+01341,Luca,Rossi,+399793733475,Chimico,2,1995
+01348,Anna,Rossi,+399382770280,Chimico,5,1999
+01349,Giorgio,Fontana,+392408594233,Chimico,0,1999
+01350,Giorgio,Rossi,+391399957327,Chimico,3,1998
+01351,Paolo,Esposito,+397054368064,Ingegnere,5,1999
+01353,Marco,Conti,+393662216209,Chimico,0,2001
+01355,Francesco,Esposito,+399261264082,Chimico,3,1999
+01365,Giulia,Greco,+394478000607,Chimico,0,1996
+01369,Anna,Greco,+395902506811,Capo settore industriale,3,2001
+01377,Paolo,Verdi,+397800105695,Ingegnere,2,2000
+01380,Elena,Neri,+393763065615,Chimico,3,1995
+01383,Luca,Neri,+397518500379,Informatico,2,1997
+01388,Marco,Esposito,+395823028796,Chimico,1,2001
+01389,Giorgio,Lombardi,+394730870118,Informatico,4,1998
+01392,Anna,Conti,+391864866750,Chimico,5,1995
+01395,Chiara,Bianchi,+392462687425,Ingegnere,1,2001
+01398,Giorgio,Rossi,+394374016996,Ingegnere,3,2000
+01408,Paolo,Verdi,+390995168427,Chimico,0,1996
+01409,Luca,Lombardi,+392460300648,Chimico,0,1999
+01415,Chiara,Esposito,+394109623315,Informatico,3,2000
+01417,Paolo,Esposito,+398771173191,Ingegnere,3,1996
+01418,Francesco,Gallo,+398583927827,Informatico,3,1996
+01424,Luca,Fontana,+396585026961,Ingegnere,0,1999
+01426,Marco,Gallo,+393676735877,Ingegnere,5,1998
+01430,Chiara,Bianchi,+394191497798,Ingegnere,0,1997
+01431,Paolo,Verdi,+397476816639,Chimico,4,1998
+01432,Elena,Gallo,+390920718253,Chimico,1,1996
+01436,Chiara,Esposito,+396604253472,Ingegnere,4,2001
+01437,Giorgio,Fontana,+394630235947,Ingegnere,5,1995
+01441,Sara,Bianchi,+393506212748,Ingegnere,5,1995
+01444,Anna,Rossi,+398058599920,Capo settore industriale,1,2001
+01447,Chiara,Conti,+399334011513,Ingegnere,0,2001
+01448,Francesco,Rossi,+399925027864,Capo settore industriale,5,1996
+01468,Chiara,Conti,+393874884527,Capo settore industriale,0,2001
+01470,Paolo,Fontana,+397402073078,Ingegnere,4,1997
+01477,Anna,Greco,+391046537343,Ingegnere,2,1998
+01478,Anna,Rossi,+398231185682,Informatico,4,1995
+01482,Giulia,Lombardi,+399066257331,Ingegnere,1,2000
+01483,Sara,Fontana,+392128834717,Chimico,5,2000
+01491,Francesco,Fontana,+398646145873,Capo settore industriale,4,1997
+01498,Chiara,Fontana,+397764741547,Capo settore industriale,0,1996
+01500,Anna,Verdi,+396522696310,Chimico,2,2001
+01503,Anna,Fontana,+397260019411,Informatico,2,1997
+01505,Anna,Lombardi,+396090366243,Capo settore industriale,1,1996
+01513,Marco,Fontana,+393067060591,Chimico,2,1998
+01514,Anna,Greco,+392858353268,Ingegnere,3,1996
+01516,Elena,Conti,+397597861503,Informatico,0,2000
+01518,Paolo,Fontana,+394051145963,Informatico,1,1998
+01522,Giulia,Esposito,+391217998517,Capo settore industriale,0,1998
+01524,Paolo,Gallo,+398817098023,Ingegnere,3,1995
+01530,Giorgio,Conti,+396282600705,Ingegnere,2,1998
+01531,Paolo,Greco,+396993303767,Capo settore industriale,3,1999
+01532,Luca,Gallo,+391103649898,Chimico,5,1997
+01542,Sara,Lombardi,+399291359838,Informatico,0,2001
+01551,Luca,Gallo,+390774874110,Capo settore industriale,3,1997
+01552,Anna,Esposito,+398163777764,Ingegnere,0,1999
+01559,Giorgio,Lombardi,+399425212885,Informatico,3,1997
+01564,Marco,Verdi,+395227424363,Ingegnere,2,2000
+01565,Chiara,Rossi,+394205122825,Capo settore industriale,2,1995
+01566,Francesco,Gallo,+395459541776,Capo settore industriale,4,1996
+01567,Anna,Esposito,+396802911267,Chimico,1,1995
+01575,Chiara,Lombardi,+394921054291,Informatico,4,1998
+01576,Chiara,Lombardi,+391753658152,Capo settore industriale,5,1996
+01577,Sara,Conti,+391072121631,Ingegnere,5,1998
+01581,Sara,Conti,+391986112903,Chimico,0,2001
+01584,Paolo,Esposito,+394120412471,Capo settore industriale,0,1996
+01585,Paolo,Neri,+390976522454,Chimico,5,2001
+01592,Sara,Neri,+399481454656,Capo settore industriale,3,2000
+01602,Francesco,Gallo,+390742525130,Ingegnere,1,2001
+01603,Marco,Gallo,+390089564939,Chimico,3,1995
+01616,Francesco,Neri,+394926759785,Ingegnere,0,2001
+01628,Marco,Neri,+392228901281,Chimico,1,1995
+01631,Chiara,Gallo,+395878670412,Ingegnere,4,1996
+01638,Elena,Fontana,+395533170365,Capo settore industriale,2,1998
+01641,Giulia,Verdi,+392049457603,Capo settore industriale,2,1997
+01644,Paolo,Gallo,+398214958443,Ingegnere,4,1997
+01648,Giulia,Esposito,+393142611822,Capo settore industriale,1,2000
+01656,Giulia,Gallo,+390591618173,Informatico,4,2000
+01659,Giulia,Lombardi,+397528377577,Ingegnere,4,2000
+01673,Luca,Lombardi,+397427549460,Chimico,0,1996
+01676,Marco,Greco,+394227476377,Chimico,1,1996
+01683,Luca,Fontana,+393595027691,Informatico,0,1997
+01684,Chiara,Bianchi,+396880705007,Ingegnere,0,2000
+01685,Luca,Gallo,+392386659911,Informatico,0,2001
+01695,Marco,Rossi,+396256125952,Capo settore industriale,4,1998
+01697,Chiara,Gallo,+396151425251,Chimico,2,1996
+01699,Giorgio,Greco,+390224263499,Chimico,2,1999
+01700,Sara,Gallo,+391121138872,Ingegnere,5,2000
+01702,Sara,Neri,+393020638190,Ingegnere,0,2000
+01703,Giorgio,Fontana,+399291858020,Chimico,5,2001
+01710,Sara,Gallo,+396080942588,Informatico,4,2001
+01714,Anna,Neri,+394486738128,Ingegnere,1,1998
+01718,Elena,Fontana,+396000885646,Ingegnere,4,1999
+01722,Sara,Bianchi,+398255424971,Ingegnere,3,1995
+01727,Anna,Gallo,+390144307901,Informatico,3,1995
+01730,Sara,Neri,+391443120689,Informatico,1,1995
+01738,Paolo,Esposito,+397048580122,Informatico,5,1999
+01745,Francesco,Lombardi,+392741830132,Informatico,4,2000
+01757,Marco,Gallo,+392751508015,Ingegnere,5,1997
+01763,Giorgio,Greco,+399514165187,Chimico,5,1999
+01764,Giulia,Verdi,+394840778372,Capo settore industriale,2,2000
+01774,Elena,Verdi,+393712666212,Ingegnere,2,2001
+01782,Marco,Rossi,+391455132313,Informatico,5,2000
+01785,Sara,Lombardi,+398347692267,Informatico,3,2000
+01787,Giorgio,Gallo,+393809000783,Capo settore industriale,0,1997
+01790,Francesco,Bianchi,+393353606074,Informatico,4,1998
+01791,Luca,Fontana,+394078092746,Capo settore industriale,4,2001
+01802,Francesco,Gallo,+393237226798,Ingegnere,0,1995
+01804,Sara,Rossi,+397015398067,Chimico,0,2001
+01808,Giorgio,Gallo,+395386470318,Ingegnere,5,1997
+01809,Anna,Greco,+394918735162,Capo settore industriale,2,2000
+01815,Marco,Esposito,+399929542192,Chimico,5,2001
+01816,Giulia,Lombardi,+390599817887,Ingegnere,1,2001
+01819,Francesco,Lombardi,+391025342243,Capo settore industriale,4,2001
+01820,Anna,Lombardi,+391494304981,Capo settore industriale,1,1996
+01821,Sara,Neri,+394602048275,Chimico,3,2000
+01832,Chiara,Verdi,+390603428086,Ingegnere,4,2000
+01837,Elena,Fontana,+394912254485,Capo settore industriale,5,1997
+01838,Paolo,Gallo,+390521207654,Informatico,0,1997
+01848,Francesco,Greco,+394342489373,Ingegnere,5,2001
+01849,Elena,Verdi,+399280053456,Capo settore industriale,0,1998
+01851,Elena,Greco,+394179306131,Capo settore industriale,3,1998
+01852,Anna,Conti,+392107371460,Ingegnere,5,1999
+01856,Paolo,Gallo,+393660178743,Ingegnere,0,1998
+01861,Marco,Lombardi,+391925453075,Capo settore industriale,4,1998
+01866,Giulia,Rossi,+397441812930,Ingegnere,1,2000
+01870,Sara,Conti,+391341437949,Chimico,2,1996
+01877,Paolo,Conti,+396441471445,Informatico,2,2001
+01882,Luca,Greco,+399470181967,Chimico,5,1996
+01896,Giulia,Fontana,+393536047760,Informatico,4,1995
+01899,Giorgio,Rossi,+396999794864,Capo settore industriale,3,1998
+01902,Anna,Rossi,+396763696406,Informatico,2,1998
+01903,Giorgio,Greco,+397450031283,Ingegnere,3,1997
+01906,Sara,Neri,+394435991330,Informatico,0,2001
+01908,Giorgio,Bianchi,+397127397741,Informatico,2,2001
+01915,Giorgio,Bianchi,+393193782212,Capo settore industriale,1,1995
+01916,Luca,Lombardi,+392031136892,Chimico,2,1998
+01919,Chiara,Lombardi,+393103718896,Ingegnere,0,1997
+01933,Sara,Fontana,+395114033480,Chimico,1,2000
+01938,Francesco,Greco,+395995542488,Capo settore industriale,0,1999
+01943,Paolo,Rossi,+392182285867,Capo settore industriale,4,1996
+01948,Elena,Verdi,+394794192157,Capo settore industriale,4,1997
+01949,Giulia,Verdi,+390880383985,Ingegnere,0,2000
+01974,Giulia,Verdi,+390305991457,Capo settore industriale,3,1995
+01977,Anna,Esposito,+395756668529,Ingegnere,1,2001
+01979,Anna,Esposito,+392247478054,Capo settore industriale,5,2001
+01980,Francesco,Verdi,+398257224486,Informatico,2,1997
+01983,Elena,Greco,+395289629421,Ingegnere,2,1999
+01995,Giulia,Lombardi,+397425446755,Chimico,1,1999
+01999,Sara,Conti,+391713255937,Chimico,0,1996

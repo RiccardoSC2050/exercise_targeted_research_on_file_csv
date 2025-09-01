@@ -12,6 +12,8 @@ def stampa_completa(df) -> None:
             distruggi_file(nomeFile_istantaneo)
         except Exception as e:
             print("errore in stampa completa: ",e)
+    else:
+        print("nessun dato da visualizzare")
 
 
 

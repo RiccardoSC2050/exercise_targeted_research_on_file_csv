@@ -6,6 +6,8 @@ from eleco_ricerca import *
 from funzioni_su_fileCSV.letturaFile_csv import creaDataFrame
 from funzioni_su_fileCSV.uscita import *
 from ricerca_mirata import *
+from ricerca_statistica import *
+from richiesta_su_nuoviCSV import vuoi_visualizzare
 
 # main effettivo del programma:
 # importiamo la funzione per creare il DataFrame da un file CSV
@@ -24,7 +26,7 @@ if __name__ == "__main__":
     else:
         print("caricamento del file CSV avvenuto con successo.\n")
 
-    # visualizziamo la struttura del DataFrame:
+    # visualizziamo la struttura del DataFrame:S
     try:
         print(
             "SCHEDA DI RIFERIMENTO: dipendenti_azienda.CSV\n"
@@ -48,8 +50,8 @@ if __name__ == "__main__":
                     "inserire valore per la ricerca di un dipendente;\n"
                     "(ricerca mirata) per cercare un dipendente specifico;\n"
                     "(ricerca statistica) per vedere alcuni parametri aziendali;\n"
+                    "(visualizzare file) per visualizzare un file CSV salvato in precedenza;\n"
                     "(exit) per uscire dal programma.\n"
-
                 ).lower()
             except ValueError:
                 # Gestione dell'errore in caso di inserimento non valido
@@ -65,6 +67,9 @@ if __name__ == "__main__":
             ricerca_mirata(df)
 
         elif input_utente == "ricerca statistica":
-            pass
+            ricerca_statistica(df)
+        
+        elif input_utente == "visualizzare file":
+            vuoi_visualizzare()
 
     # l'input sarà generico: se è numerico considera i numeri altrimenti cerca valori testuali

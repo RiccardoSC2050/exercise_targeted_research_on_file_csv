@@ -19,3 +19,4 @@ def elenco_ricerca_statistica() -> None:
         "3- media richiami;\n"
         "4- media anzianità dei dipendenti;\n"
     )
+

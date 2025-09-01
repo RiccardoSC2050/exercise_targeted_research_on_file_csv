@@ -18,6 +18,9 @@ def vuoi_creare(df) -> None:
 
         elif richiesta == "s":
             while True:
+                if df.empty:
+                    print("nessun dato da salvare, ritorno al menu precedente")
+                    break
                 nome: str = input("che nome vuoi assegnare al file: ")
                 if nome.isdigit():
                     print("riprova inserimento nome")

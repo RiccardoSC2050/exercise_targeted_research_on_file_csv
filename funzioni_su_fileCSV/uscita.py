@@ -6,7 +6,7 @@ def uscire() -> None:
     """
     Funzione per uscire dal programma.
     """
-    print("Uscita dal programma. Grazie per aver utilizzato il sistema.")
+    print("\n...\n\nUscita dal programma. Grazie per aver utilizzato il sistema.")
     sys.exit(0)
 
     # Questa funzione può essere richiamata quando l'utente desidera uscire dal programma.
@@ -17,7 +17,7 @@ def exit(n) -> None:
         """
         Funzione per uscire dal programma.
         """
-        print("Uscendo...")
+        print("\nUscendo...")
         time.sleep(0.5)
         uscire()
     else:

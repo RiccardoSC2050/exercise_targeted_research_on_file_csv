@@ -8,7 +8,7 @@ def elenco_ricerca_mirata() -> None:
         + "5- intervallo di anni\n"
         + "6- numero richiami\n"
         + "7- numero richiami maggiore valore\n"
-        + "8- numero richiami minori valore\n"
+        + "8- numero richiami minori valore\n\n"
     )
 
 
@@ -17,6 +17,6 @@ def elenco_ricerca_statistica() -> None:
         "1- numero totale dipendenti;\n"
         "2- numero dei dipendenti per valore cercato;\n"
         "3- media richiami;\n"
-        "4- media anzianità dei dipendenti;\n"
+        "4- media anzianità dei dipendenti;\n\n"
     )
 

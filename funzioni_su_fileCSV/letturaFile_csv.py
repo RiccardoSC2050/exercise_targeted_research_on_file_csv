@@ -8,7 +8,7 @@ def creaDataFrame(nome_file):
         f = p.read_csv(nome_file, encoding="utf-8", sep=",", dtype=str)
         return f
     except FileNotFoundError:
-        print("nome file csv non valido, errore")
+        print("\nnome file csv non valido, errore\n")
 
 
 # Visualizzare tutti i dipendenti
@@ -22,10 +22,11 @@ def visualizzaTabella(nome_file):
 
     while True:
         try:
-            risposta = input("vuoi visualizzare tutto il file per intero? (s/n)")
+            risposta = input("\nvuoi visualizzare tutto il file per intero? (s/n)\n\n")
+            
 
             if risposta != "s" and risposta != "n":
-                print("errore di inserimento, inserire solo s o n")
+                print("\nerrore di inserimento, inserire solo s o n\n")
                 continue
             elif risposta == "n":
                 break
@@ -41,7 +42,7 @@ def visualizzaTabella(nome_file):
                     print(chunck.to_string(index=False))
                 break
         except Exception as e:
-            print("errore in qualcosa:", e)
+            print("\nerrore in qualcosa:", e)
 
 
 # test funzioni

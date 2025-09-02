@@ -26,22 +26,22 @@ def ricerca_per_id(df, id_ricerca: str) -> object:
             # Se non viene passato un ID, chiede all'utente di inserirne uno
             elif id_ricerca == None:
                 ricerca: str = input(
-                    "inserisci l'ID del dipendente da cercare, o 'back per annullare operazione' oppure 'exit' per uscire: "
+                    "\ninserisci l'ID del dipendente da cercare, o 'back per annullare operazione' oppure 'exit' per uscire: \n\n"
                 ).lower()
             # Gestione uscita dalla funzione
             exit(ricerca)
             # Controlli sull'ID inserito
             if ricerca == None or ricerca == "":
-                print("Errore: l'ID non può essere vuoto.")
+                print("\nErrore: l'ID non può essere vuoto.\n")
                 continue
             elif ricerca == "back":
                 print("\nOperazione annullata, ritorno al menu precedente.\n")
                 return df.iloc[0:0]
             elif len(ricerca) > 4:
-                print("Errore: l'ID deve essere massimo di 4 caratteri.")
+                print("\nErrore: l'ID deve essere massimo di 4 caratteri.\n")
                 continue
             elif ricerca.isdigit() == False:
-                print("Errore: l'ID numerico.")
+                print("\nErrore: l'ID numerico.\n")
                 continue
             else:
                 # Ricerca nel DataFrame per ID (case insensitive)
@@ -60,7 +60,7 @@ def ricerca_per_id(df, id_ricerca: str) -> object:
 
         except ValueError:
             # Gestione errori di inserimento
-            print("Errore nell'inserimento. Riprova.")
+            print("\nErrore nell'inserimento. Riprova.\n")
             continue
     return rigaDF
 
@@ -83,21 +83,21 @@ def ricerca_per_nominativo(df, nome_ricerca: list) -> object:
             elif nome_ricerca == None:
                 # Chiede all'utente di inserire un nome o cognome da cercare
                 valore: str = input(
-                    "inserisci prima il nome e poi cognome da cercare, o 'back per annullare operazione' oppure 'exit' per uscire:  "
+                    "\ninserisci prima il nome e poi cognome da cercare, o 'back per annullare operazione' oppure 'exit' per uscire:  \n\n"
                 ).lower()
 
                 # Gestione uscita dalla funzione
             exit(valore)
             # Se il valore è vuoto
             if valore == None or valore == "":
-                print("Errore: il valore non può essere vuoto.")
+                print("\nErrore: il valore non può essere vuoto.\n")
                 continue
                 # Controlli sull'input
             elif valore == "back":
                 print("\nOperazione annullata, ritorno al menu precedente.\n")
                 return df.iloc[0:0]
             elif not all(v.isalpha() for v in valore.split()):
-                print("Errore: i nominativi devono contenere solo lettere.")
+                print("\nErrore: i nominativi devono contenere solo lettere.\n")
                 continue
             # Ricerca nel DataFrame
             else:
@@ -109,7 +109,7 @@ def ricerca_per_nominativo(df, nome_ricerca: list) -> object:
                 # Se vengono inseriti più di due parole
                 elif len(valore.split()) > 2:
                     print(
-                        "Errore: inserisci solo il nome e il cognome, separati da uno spazio."
+                        "\nErrore: inserisci solo il nome e il cognome, separati da uno spazio.\n"
                     )
                     continue
                 else:
@@ -150,11 +150,11 @@ def ricerca_per_nominativo(df, nome_ricerca: list) -> object:
                 break
         except ValueError:
             # Gestione errori di inserimento
-            print("Errore nell'inserimento. Riprova.")
+            print("\nErrore nell'inserimento. Riprova.\n")
             continue
         except IndexError:
             # Gestione errori di accesso agli indici della lista
-            print("Errore: assicurati di inserire sia il nome che il cognome.")
+            print("\nErrore: assicurati di inserire sia il nome che il cognome.\n")
             continue
     return rigaDF
 
@@ -173,18 +173,18 @@ def ricerca_per_professione(df, professione: str) -> object:
             elif professione == None:
                 # se non viene passato un nome, chiede all'utente di inserirne uno
                 ricerca: str = input(
-                    "inserisci la professione da cercare, o 'back per annullare operazione' oppure 'exit' per uscire: "
+                    "\ninserisci la professione da cercare, o 'back per annullare operazione' oppure 'exit' per uscire: \n\n"
                 ).lower()
 
             exit(ricerca)
             if ricerca == None or ricerca == "":
-                print("Errore: la professione non può essere vuota.")
+                print("\nErrore: la professione non può essere vuota.\n")
                 continue
             elif ricerca == "back":
                 print("\nOperazione annullata, ritorno al menu precedente.\n")
                 return df.iloc[0:0]
             elif ricerca.isalpha() == False:
-                print("Errore: la professione deve contenere solo lettere.")
+                print("\nErrore: la professione deve contenere solo lettere.\n")
                 continue
             else:
                 rigaDF = df[
@@ -222,31 +222,31 @@ def ricerca_per_anno_inizio(df, anno: str) -> object:
             # Se non viene passato un anno, chiede all'utente di inserirne uno
             elif anno == None:
                 ricerca: str = input(
-                    "inserisci l'anno di inizio da cercare, o 'back per annullare operazione' oppure 'exit' per uscire: "
+                    "\ninserisci l'anno di inizio da cercare, o 'back per annullare operazione' oppure 'exit' per uscire: \n"
                 ).lower()
                 # Gestione uscita dalla funzione
             exit(ricerca)
             # Controllo se l'input è vuoto
             if ricerca == None or ricerca == "":
-                print("Errore: l'anno non può essere vuoto.")
+                print("\nErrore: l'anno non può essere vuoto.\n")
                 continue
             elif ricerca == "back":
                 print("\nOperazione annullata, ritorno al menu precedente.\n")
                 return df.iloc[0:0]
             # Controllo se l'input è numerico
             elif not ricerca.isdigit():
-                print("Errore: l'anno deve essere numerico.")
+                print("\nErrore: l'anno deve essere numerico.\n")
                 continue
             # Controllo se l'anno è di 4 cifre
             elif len(ricerca) != 4:
-                print("Errore: l'anno deve essere di 4 cifre.")
+                print("\nErrore: l'anno deve essere di 4 cifre.\n")
                 continue
             else:
                 # Filtra il DataFrame per l'anno di inizio
                 rigaDF = df[df["AnnoInizio"].str.contains(ricerca)]
                 # Stampa messaggio se non trova l'anno, altrimenti mostra i dati trovati
                 print(
-                    f"nessun anno di inizio: {ricerca} trovato"
+                    f"\nnessun anno di inizio: {ricerca} trovato\n"
                     if rigaDF.empty
                     else rigaDF.head()
                 )
@@ -254,7 +254,7 @@ def ricerca_per_anno_inizio(df, anno: str) -> object:
                 break
         except ValueError:
             # Gestione errori di inserimento
-            print("Errore nell'inserimento. Riprova.")
+            print("\nErrore nell'inserimento. Riprova.\n")
             continue
     return rigaDF
 
@@ -271,23 +271,23 @@ def ricerca_per_intervallo(df, anno: list) -> object:
                 # se non viene passato un intervallo, chiede all'utente di inserirne uno
                 ricerca: list = (
                     input(
-                        "inserisci l'intervallo di anni da cercare (es. 2000-2020), o 'back per annullare operazione' oppure 'exit' per uscire:  "
+                        "\ninserisci l'intervallo di anni da cercare (es. 2000-2020), o 'back per annullare operazione' oppure 'exit' per uscire:  \n\n"
                     )
                     .lower()
                     .split("-")
                 )
-            exit(ricerca)
-            if len(ricerca) != 2:
-                print("Errore: l'intervallo deve essere composto da due anni.")
-                continue
-            elif ricerca == "back":
+            exit(ricerca[0])
+            if ricerca[0] == "back":
                 print("\nOperazione annullata, ritorno al menu precedente.\n")
                 return df.iloc[0:0]
+            elif len(ricerca) != 2:
+                print("\nErrore: l'intervallo deve essere composto da due anni.\n")
+                continue
             elif not all(anno.isdigit() for anno in ricerca):
-                print("Errore: l'intervallo deve essere numerico.")
+                print("\nErrore: l'intervallo deve essere numerico.\n")
                 continue
             elif not all(len(anno) == 4 for anno in ricerca):
-                print("Errore: gli anni devono essere di 4 cifre.")
+                print("\nErrore: gli anni devono essere di 4 cifre.\n")
                 continue
             else:
                 rigadf = df[
@@ -295,7 +295,7 @@ def ricerca_per_intervallo(df, anno: list) -> object:
                 ]
                 # Stampa messaggio se non trova l'intervallo, altrimenti mostra i dati trovati
                 print(
-                    f"nessun dipendente trovato in questa fascia: {ricerca}"
+                    f"\nnessun dipendente trovato in questa fascia: {ricerca}\n"
                     if rigadf.empty
                     else rigadf.head()
                 )
@@ -303,7 +303,7 @@ def ricerca_per_intervallo(df, anno: list) -> object:
                 break
         except ValueError:
             # Gestione errori di inserimento
-            print("Errore nell'inserimento. Riprova.")
+            print("\nErrore nell'inserimento. Riprova.\n")
             continue
 
     return rigadf
@@ -325,22 +325,22 @@ def ricerca_per_numero_richiami(df, numero: str) -> object:
             elif numero == None:
                 # se non viene passato un numero, chiede all'utente di inserirne uno
                 ricerca: str = input(
-                    "inserisci il numero di richiami da cercare, o 'back per annullare operazione' oppure 'exit' per uscire:  "
+                    "\ninserisci il numero di richiami da cercare, o 'back per annullare operazione' oppure 'exit' per uscire: \n\n"
                 ).lower()
             exit(ricerca)
             if ricerca == None or ricerca == "":
-                print("Errore: il numero non può essere vuoto.")
+                print("\nErrore: il numero non può essere vuoto.\n")
                 continue
             elif ricerca == "back":
                 print("\nOperazione annullata, ritorno al menu precedente.\n")
                 return df.iloc[0:0]
             elif not ricerca.isdigit():
-                print("Errore: il numero deve essere numerico.")
+                print("\nErrore: il numero deve essere numerico.\n")
                 continue
             else:
                 rigaDF = df[df["Richiami"] == ricerca]
                 print(
-                    f"nessun richiamo: {ricerca} trovato"
+                    f"\nnessun richiamo: {ricerca} trovato\n"
                     if rigaDF.empty
                     else rigaDF.head()
                 )
@@ -348,7 +348,7 @@ def ricerca_per_numero_richiami(df, numero: str) -> object:
                 break
         except ValueError:
             # Gestione errori di inserimento
-            print("Errore nell'inserimento. Riprova.")
+            print("\nErrore nell'inserimento. Riprova.\n")
             continue
 
     return rigaDF
@@ -365,16 +365,16 @@ def ricerca_per_numero_richiami_istruzione(df, n: str, istruzione: str) -> None:
             elif n == None:
                 # se non viene passato un numero, chiede all'utente di inserirne uno
                 numero: str = input(
-                    "inserisci il numero di richiami da cercare, o 'back per annullare operazione' oppure 'exit' per uscire:  "
+                    "\ninserisci il numero di richiami da cercare, o 'back per annullare operazione' oppure 'exit' per uscire:  \n\n"
                 ).lower()
             if numero == None or numero == "":
-                print("Errore: il numero non può essere vuoto.")
+                print("\nErrore: il numero non può essere vuoto.\n")
                 continue
             elif numero == "back":
                 print("\nOperazione annullata, ritorno al menu precedente.\n")
                 return df.iloc[0:0]
             elif not numero.isdigit():
-                print("Errore: il numero deve essere numerico.")
+                print("\nErrore: il numero deve essere numerico.\n")
                 continue
             # Se l'istruzione è "maggiore", filtra i dipendenti con richiami maggiori o uguali al numero
             if istruzione == "maggiore":
@@ -385,13 +385,13 @@ def ricerca_per_numero_richiami_istruzione(df, n: str, istruzione: str) -> None:
                 dfriga = df[df["Richiami"] <= numero]
             # Stampa messaggio se non trova richiami, altrimenti mostra i dati trovati
             print(
-                f"nessun richiamo: {numero} trovato" if dfriga.empty else dfriga.head()
+                f"\nnessun richiamo: {numero} trovato\n" if dfriga.empty else dfriga.head()
             )
             stampa_completa(dfriga)
             break
         except ValueError:
             # Gestione errori di inserimento
-            print("Errore nell'inserimento. Riprova.")
+            print("\nErrore nell'inserimento. Riprova.\n")
             continue
 
     return dfriga

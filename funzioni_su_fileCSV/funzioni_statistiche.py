@@ -6,9 +6,12 @@
 
 from datetime import date
 
+from pausa import pausa
+
 
 def numero_totale_dipendenti(df):
     """Restituisce il numero totale di dipendenti."""
+    pausa(1.2)
     return len(df)
 
 
@@ -17,12 +20,13 @@ def numero_dipendenti_per_istruzione(df) -> int:
     while True:
         try:
             istruzione: str = input(
-                "per quale parametro vuoi il conteggio dei dipendenti? chiave valore es: Nome Giorgio: "
+                "\nper quale parametro vuoi il conteggio dei dipendenti? chiave valore es: Nome Giorgio: \n\n"
             ).lower()
+            pausa(1.2)
 
             valori: list = istruzione.split(" ")
-            if valori[0]=="id":
-                valori[0]=="ID"
+            if valori[0] == "id":
+                valori[0] == "ID"
             else:
                 valori = [v.capitalize() for v in valori]
 
@@ -30,12 +34,14 @@ def numero_dipendenti_per_istruzione(df) -> int:
                 i = (df[valori[0]] == valori[1]).sum()
 
             elif istruzione.isdigit():
-                print(f"Parametro '{istruzione}' non valido. Deve essere una stringa.")
+                print(
+                    f"\nParametro '{istruzione}' non valido. Deve essere una stringa.\n"
+                )
             else:
-                print(f"Parametro '{istruzione}' non trovato nel DataFrame.")
+                print(f"\nParametro '{istruzione}' non trovato nel DataFrame.\n")
             break
         except Exception as e:
-            print("errore inserimento", e)
+            print("\nerrore inserimento", e)
 
     return i
 
@@ -44,6 +50,7 @@ def media_richiami(df) -> float:
 
     numeri: list = df["Richiami"].tolist()
     float_numeri: list = [float(n) for n in numeri]
+    pausa(1.2)
     return sum(float_numeri) / len(float_numeri)
 
 
@@ -52,6 +59,7 @@ def media_anni_anzianita_aziendale(df) -> float:
     anni: list = df["AnnoInizio"].tolist()
     int_anni: list = [int(anno) for anno in anni]
     anni_lavoro: list = [(date.today().year - anno) for anno in int_anni]
+    pausa(1.2)
     return (sum(anni_lavoro) / len(anni_lavoro)).__round__(1)
 
 

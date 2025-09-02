@@ -3,7 +3,7 @@ from eleco_ricerca import elenco_ricerca_mirata
 from funzioni_su_fileCSV.funzioniRicerca import *
 from funzioni_su_fileCSV.uscita import *
 from richiesta_su_nuoviCSV import *
-
+from pausa import pausa
 def controlo_input_ricerca_mirata(df_nano):
     """
     Controlla se il DataFrame risultante dalla ricerca non è vuoto.
@@ -26,7 +26,7 @@ def ricerca_mirata(df) -> None:
             ricerca_mirata: str = input(
                 "(exit) per uscire\n"
                 "(back) per tornare indietro\n"
-                "oppure inserire numero corrispondente al tipo di ricerca: "
+                "oppure inserire numero corrispondente al tipo di ricerca: \n\n"
             )
         except ValueError:
             print("inserimento sconosciuto")
@@ -40,13 +40,13 @@ def ricerca_mirata(df) -> None:
         # Controllo che l'input sia numerico e valido
         elif ricerca_mirata.isalpha() and ricerca_mirata != "exit":
             print(
-                "l'inserimento deve corrispondere con i valori designati: indice numerico"
+                "\nl'inserimento deve corrispondere con i valori designati: indice numerico\n"
             )
             continue
 
         elif not (int(ricerca_mirata) > 0 and int(ricerca_mirata) < 9):
             print(
-                "l'inserimento deve corrispondere con i valori designati: indice numerico"
+                "\nl'inserimento deve corrispondere con i valori designati: indice numerico\n"
             )
             continue
 
@@ -55,35 +55,51 @@ def ricerca_mirata(df) -> None:
             match ricerca_mirata:
                 case "1":
                     # Ricerca per ID
+                    pausa(1.2)
                     df_nano = ricerca_per_id(df, None)
+                    pausa(1.2)
                     controlo_input_ricerca_mirata(df_nano) 
                 case "2":
                     # Ricerca per nominativo
+                    pausa(1.2)
                     df_nano = ricerca_per_nominativo(df, None)
+                    pausa(1.2)
                     controlo_input_ricerca_mirata(df_nano)
                 case "3":
                     # Ricerca per professione
+                    pausa(1.2)
                     df_nano = ricerca_per_professione(df, None)
+                    pausa(1.2)
                     controlo_input_ricerca_mirata(df_nano)
                 case "4":
                     # Ricerca per anno di inizio
+                    pausa(1.2)
                     df_nano = ricerca_per_anno_inizio(df, None)
+                    pausa(1.2)
                     controlo_input_ricerca_mirata(df_nano)
                 case "5":
                     # Ricerca per intervallo di anni
+                    pausa(1.2)
                     df_nano = ricerca_per_intervallo(df, None)
+                    pausa(1.2)
                     controlo_input_ricerca_mirata(df_nano)
                 case "6":
                     # Ricerca per numero di richiami
+                    pausa(1.2)
                     df_nano = ricerca_per_numero_richiami(df, None)
+                    pausa(1.2)
                     controlo_input_ricerca_mirata(df_nano)
                 case "7":
                     # Ricerca per numero di richiami istruzione (maggiore)
+                    pausa(1.2)
                     df_nano = ricerca_per_numero_richiami_istruzione(
                         df, None, "maggiore"
                     )
+                    pausa(1.2)
                     controlo_input_ricerca_mirata(df_nano)
                 case "8":
                     # Ricerca per numero di richiami istruzione (minore)
+                    pausa(1.2)
                     df_nano = ricerca_per_numero_richiami_istruzione(df, None, "minore")
+                    pausa(1.2)
                     controlo_input_ricerca_mirata(df_nano)

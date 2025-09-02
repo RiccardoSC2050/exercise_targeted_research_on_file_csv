@@ -13,10 +13,10 @@ def salva_csv(df, nome_file: str) -> None:
                     index=False,
                     encoding="utf-8",
                 )
-                print(f"File salvato con successo come {nome_file}")
+                print(f"\nFile salvato con successo come {nome_file}")
 
             else:
-                print("non salvabile, il file è vuoto")
+                print("\nnon salvabile, il file è vuoto\n")
         else:
             if not (df.empty):
                 df.to_csv(
@@ -26,10 +26,10 @@ def salva_csv(df, nome_file: str) -> None:
                 )
 
             else:
-                print("non salvabile, il file è vuoto")
+                print("\nnon salvabile, il file è vuoto\n")
 
     except Exception as e:
-        print(f"Errore durante il salvataggio del file: {e}")
+        print(f"\nErrore durante il salvataggio del file: {e}\n")
 
 
 def distruggi_file(nomeFile) ->None:
@@ -39,7 +39,7 @@ def distruggi_file(nomeFile) ->None:
         else:
             pass
     except Exception as e:
-        print("errore durante la canecllazione file", e)
+        print("\nerrore durante la canecllazione file", e)
 
 if __name__ == "__main__":
     pass

@@ -17,10 +17,14 @@ def numero_dipendenti_per_istruzione(df) -> int:
     while True:
         try:
             istruzione: str = input(
-                "per quale parametro vuoi il conteggio dei dipendenti? chiave-valore es: Nome-Giorgio: "
-            )
+                "per quale parametro vuoi il conteggio dei dipendenti? chiave valore es: Nome Giorgio: "
+            ).lower()
 
-            valori: list = istruzione.split("-")
+            valori: list = istruzione.split(" ")
+            if valori[0]=="id":
+                valori[0]=="ID"
+            else:
+                valori = [v.capitalize() for v in valori]
 
             if valori[0] in df.columns:
                 i = (df[valori[0]] == valori[1]).sum()
